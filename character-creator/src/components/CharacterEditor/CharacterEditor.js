@@ -78,6 +78,7 @@ function App() {
         </div>
       </MaxWidthWrapper>
 
+      <div className={styles.prespective}></div>
       <div className={styles.characterWrapper}>
         <Character
           body={body}

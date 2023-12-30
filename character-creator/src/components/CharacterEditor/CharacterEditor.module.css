@@ -5,9 +5,9 @@
 
 .maxWidthWrapper {
 }
-
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +24,21 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 600px;
+  top: 20%;
+  left: 55%;
+  bottom: 10%;
 }
 
 .controlColumn {
+  width: 50%;
+}
+div .prespective {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  top: 60%;
+  z-index: -1;
 }
